@@ -1,0 +1,52 @@
+VAR_GLOBAL
+	
+	(*HMI INPUTS*)
+	iSUB000_S1: BOOL; // Start button
+	iSUB000_S2: BOOL;  // Stop button
+	iSUB000_S3: BOOL; // Reset button
+	
+	(*HMI OUTPUTS*)
+	oSUB000_H1: BOOL; // Start button lamp
+	oSUB000_H2: WORD; // Display
+	oSUB000_H3: BOOL; // Reset button lamp
+	
+	(*BEACON*)
+	oSUB000_H4: BOOL; // Beacon Green
+	oSUB000_H5: BOOL; // Beacon Yellow
+	oSUB000_H6: BOOL; // Beacon Red
+	
+	(*SUB010*)
+	iSUB010_B1: BOOL; // SUB010 Early Sensor
+	iSUB010_B2: BOOL; // SUB010 Lower Sensor
+	iSUB010_B3: BOOL; // SUB010 Mid Sensor
+	iSUB010_B4: BOOL; // SUB010 High Sensor
+	oSUB010_K1: BOOL; // SUB010 Motor Forward
+	
+	(*SUB020*)
+	iSUB020_B1: BOOL; // SUB020 Early Sensor
+	iSUB020_B2: BOOL; // SUB020 Mid Sensor
+	iSUB020_B3: BOOL; // SUB020 Late Sensor
+	oSUB020_K1: BOOL; // SUB020 Motor Forward
+	
+	(*SUB030*)
+	iSUB030_B1: BOOL; // SUB030 Early Sensor
+	iSUB030_B2: BOOL; // SUB030 Late Sensor
+	oSUB030_K1: BOOL; // SUB030 Motor Forward
+	oSUB030_Y1: BOOL; // SUB030 Cylinder Expand
+	iSUB030_C1_B1: BOOL; // SUB030 Cylinder Expanded Sensor
+	
+	(*SUB040*)
+	iSUB040_B1: BOOL; // SUB040 Early Sensor
+	iSUB040_B2: BOOL; // SUB040 Late Sensor
+	oSUB040_K1: BOOL; // SUB040 Motor Forward
+	oSUB040_Y1: BOOL; // SUB040 Cylinder Expand
+	iSUB040_C1_B1: BOOL; // SUB040 Cylinder Expanded Sensor
+	
+	(*SUB050*)
+	iSUB050_B1: BOOL; // SUB050 Early Sensor
+	iSUB050_B2: BOOL; // SUB050 Late Sensor
+	oSUB050_K1: BOOL; // SUB050 Motor Forward
+	oSUB050_Y1: BOOL; // SUB050 Cylinder Expand
+	iSUB050_C1_B1: BOOL; // SUB050 Cylinder Expanded Sensor
+	
+END_VAR

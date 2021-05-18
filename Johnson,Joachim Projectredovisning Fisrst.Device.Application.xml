@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.10.0</Version>
+    <SymbolConfigObject version="3.5.10.40" runtimeid="3.5.10.40" libversion="3.5.10.0" settings="LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="Johnson,Joachim Projectredovisning Fisrst" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+    <TypeSimple name="T_WORD" size="2" swapsize="2" typeclass="Word" iecname="WORD" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="GVL">
+        <Node name="iSUB000_S1" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB000_S2" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB000_S3" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB010_B1" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB010_B2" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB010_B3" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB010_B4" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB020_B1" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB020_B2" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB020_B3" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB030_B1" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB030_B2" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB030_C1_B1" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB040_B1" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB040_B2" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB040_C1_B1" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB050_B1" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB050_B2" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB050_C1_B1" type="T_BOOL" access="ReadWrite" />
+        <Node name="MaskinState" type="T_INT" access="ReadWrite" />
+        <Node name="oSUB000_H1" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB000_H2" type="T_WORD" access="ReadWrite" />
+        <Node name="oSUB000_H3" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB000_H4" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB000_H5" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB000_H6" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB010_K1" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB020_K1" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB030_K1" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB030_Y1" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB040_K1" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB040_Y1" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB050_K1" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB050_Y1" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
